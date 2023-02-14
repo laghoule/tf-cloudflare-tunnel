@@ -3,7 +3,7 @@ apiVersion: infra.contrib.fluxcd.io/v1alpha1
 kind: Terraform
 metadata:
   name: tf-cloudflare-tunnel
-  namespace: terraform
+  namespace: flux-system
 spec:
   path: ./../module
   workspace: terraform
