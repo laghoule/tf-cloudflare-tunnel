@@ -8,6 +8,7 @@ spec:
   path: ./../module
   workspace: terraform
   interval: 1m
+  storeReadablePlan: human
   vars:
     - name: name
       value: k0s-cluster-prod-01
