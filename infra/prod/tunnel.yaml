@@ -11,7 +11,7 @@ spec:
   storeReadablePlan: human
   vars:
     - name: name
-      value: k0s-cluster-prod-01
+      value: k0s-tunnel-prod-01
   varsFrom:
     - kind: Secret
       name: cloudflare-credentials
